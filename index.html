@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+		<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Marvel-api</title>
+
+		<!-- external CSS link -->
+		
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+		
+	</head>
+	<body>
+
+		<header id="header" class="center">
+
+			<h1>Heres how to watch the Marvel movies in chronological order</h1>
+			<button>LOAD</button>
+		</header>
+
+	<main id="main" class="media-scroller hidden">
+
+			<div class="theFirstAvenger item">
+
+				<h1 id="firstAvengerH1"></h1>
+				<p id="firstAvengerP"></p>
+				<h6 id="firstAvengerH6"></h6>
+				<span id="firstAvengerDate"></span>
+				<span id="firstAvengerTime"></span>
+				<img id='firstAvengerImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="captainMarvel item">
+
+				<h1 id="captainMarvelH1"></h1>
+				<p id="captainMarvelP"></p>
+				<h6 id="captainMarvelH6"></h6>
+				<span id="captainMarvelDate"></span>
+				<span id="captainMarvelTime"></span>
+				<img id='captainMarvelImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="ironMan item">
+
+				<h1 id="ironH1"></h1>
+				<p id="ironP"></p>
+				<h6 id="ironH6"></h6>
+				<span id="ironDate"></span>
+				<span id="ironTime"></span>
+				<img id="ironImg" src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="ironManTwo item">
+
+				<h1 id="ironManTwoH1"></h1>
+				<p id="ironManTwoP"></p>
+				<h6 id="ironManTwoH6"></h6>
+				<span id="ironManTwoDate"></span>
+				<span id="ironManTwoTime"></span>
+				<img id='ironManTwoImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="hulk item">
+
+				<h1 id="hulkH1"></h1>
+				<p id="hulkP"></p>
+				<h6 id="hulkH6"></h6>
+				<span id="hulkDate"></span>
+				<span id="hulkTime"></span>
+				<img id='hulkImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="thor item">
+
+				<h1 id="thorH1"></h1>
+				<p id="thorP"></p>
+				<h6 id="thorH6"></h6>
+				<span id="thorDate"></span>
+				<span id="thorTime"></span>
+				<img id='thorImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="theAvengers item">
+
+				<h1 id="theAvengersH1"></h1>
+				<p id="theAvengersP"></p>
+				<h6 id="theAvengersH6"></h6>
+				<span id="theAvengersDate"></span>
+				<span id="theAvengersTime"></span>
+				<img id='theAvengersImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="ironManThree item">
+
+				<h1 id="ironManThreeH1"></h1>
+				<p id="ironManThreeP"></p>
+				<h6 id="ironManThreeH6"></h6>
+				<span id="ironManThreeDate"></span>
+				<span id="ironManThreeTime"></span>
+				<img id='ironManThreeImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="thorTwo item">
+
+				<h1 id="thorTwoH1"></h1>
+				<p id="thorTwoP"></p>
+				<h6 id="thorTwoH6"></h6>
+				<span id="thorTwoDate"></span>
+				<span id="thorTwoTime"></span>
+				<img id='thorTwoImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="winterSoldier item">
+
+				<h1 id="winterSoldierH1"></h1>
+				<p id="winterSoldierP"></p>
+				<h6 id="winterSoldierH6"></h6>
+				<span id="winterSoldierDate"></span>
+				<span id="winterSoldierTime"></span>
+				<img id='winterSoldierImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="guardians item">
+
+				<h1 id="guardiansH1"></h1>
+				<p id="guardiansP"></p>
+				<h6 id="guardiansH6"></h6>
+				<span id="guardiansDate"></span>
+				<span id="guardiansTime"></span>
+				<img id='guardiansImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="guardiansTwo item">
+
+				<h1 id="guardiansTwoH1"></h1>
+				<p id="guardiansTwoP"></p>
+				<h6 id="guardiansTwoH6"></h6>
+				<span id="guardiansTwoDate"></span>
+				<span id="guardiansTwoTime"></span>
+				<img id='guardiansTwoImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="ultron item">
+
+				<h1 id="ultronH1"></h1>
+				<p id="ultronP"></p>
+				<h6 id="ultronH6"></h6>
+				<span id="ultronDate"></span>
+				<span id="ultronTime"></span>
+				<img id='ultronImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="ant item">
+
+				<h1 id="antH1"></h1>
+				<p id="antP"></p>
+				<h6 id="antH6"></h6>
+				<span id="antDate"></span>
+				<span id="antTime"></span>
+				<img id='antImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="civilWar item">
+
+				<h1 id="civilWarH1"></h1>
+				<p id="civilWarP"></p>
+				<h6 id="civilWarH6"></h6>
+				<span id="civilWarDate"></span>
+				<span id="civilWarTime"></span>
+				<img id='civilWarImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="blackWidow item">
+
+				<h1 id="blackWidowH1"></h1>
+				<p id="blackWidowP"></p>
+				<h6 id="blackWidowH6"></h6>
+				<span id="blackWidowDate"></span>
+				<span id="blackWidowTime"></span>
+				<img id='blackWidowImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="homecoming item">
+
+				<h1 id="homecomingH1"></h1>
+				<p id="homecomingP"></p>
+				<h6 id="homecomingH6"></h6>
+				<span id="homecomingDate"></span>
+				<span id="homecomingTime"></span>
+				<img id='homecomingImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="blackPanther item">
+
+				<h1 id="blackPantherH1"></h1>
+				<p id="blackPantherP"></p>
+				<h6 id="blackPantherH6"></h6>
+				<span id="blackPantherDate"></span>
+				<span id="blackPantherTime"></span>
+				<img id='blackPantherImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="strange item">
+
+				<h1 id="strangeH1"></h1>
+				<p id="strangeP"></p>
+				<h6 id="strangeH6"></h6>
+				<span id="strangeDate"></span>
+				<span id="strangeTime"></span>
+				<img id='strangeImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="ragnarok item">
+
+				<h1 id="ragnarokH1"></h1>
+				<p id="ragnarokP"></p>
+				<h6 id="ragnarokH6"></h6>
+				<span id="ragnarokDate"></span>
+				<span id="ragnarokTime"></span>
+				<img id='ragnarokImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="antWasp item">
+
+				<h1 id="antWaspH1"></h1>
+				<p id="antWaspP"></p>
+				<h6 id="antWaspH6"></h6>
+				<span id="antWaspDate"></span>
+				<span id="antWaspTime"></span>
+				<img id='antWaspImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="infinityWar item">
+
+				<h1 id="infinityWarH1"></h1>
+				<p id="infinityWarP"></p>
+				<h6 id="infinityWarH6"></h6>
+				<span id="infinityWarDate"></span>
+				<span id="infinityWarTime"></span>
+				<img id='infinityWarImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="endGame item">
+
+				<h1 id="endGameH1"></h1>
+				<p id="endGameP"></p>
+				<h6 id="endGameH6"></h6>
+				<span id="endGameDate"></span>
+				<span id="endGameTime"></span>
+				<img id='endGameImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="farFromHome item">
+
+				<h1 id="farFromHomeH1"></h1>
+				<p id="farFromHomeP"></p>
+				<h6 id="farFromHomeH6"></h6>
+				<span id="farFromHomeDate"></span>
+				<span id="farFromHomeTime"></span>
+				<img id='farFromHomeImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="eternals item">
+
+				<h1 id="eternalsH1"></h1>
+				<p id="eternalsP"></p>
+				<h6 id="eternalsH6"></h6>
+				<span id="eternalsDate"></span>
+				<span id="eternalsTime"></span>
+				<img id='eternalsImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="shang-chi item">
+
+				<h1 id="shang-chiH1"></h1>
+				<p id="shang-chiP"></p>
+				<h6 id="shang-chiH6"></h6>
+				<span id="shang-chiDate"></span>
+				<span id="shang-chiTime"></span>
+				<img id='shang-chiImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="noWayHome item">
+
+				<h1 id="noWayHomeH1"></h1>
+				<p id="noWayHomeP"></p>
+				<h6 id="noWayHomeH6"></h6>
+				<span id="noWayHomeDate"></span>
+				<span id="noWayHomeTime"></span>
+				<img id='noWayHomeImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			<div class="multiverse item">
+
+				<h1 id="multiverseH1"></h1>
+				<p id="multiverseP"></p>
+				<h6 id="multiverseH6"></h6>
+				<span id="multiverseDate"></span>
+				<span id="multiverseTime"></span>
+				<img id='multiverseImg'src="" alt="" loading="lazy">
+
+			</div>
+
+			</div>
+
+			
+
+	
+
+	</main>
+		
+
+		
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
